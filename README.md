@@ -1,6 +1,6 @@
 # :zap: Python-Flask PostgreSQL Heroku
 
-A RESTful API built using the Django framework
+* A RESTful API built using the Django framework
 
 ## :page_facing_up: Table of contents
 
@@ -19,6 +19,8 @@ A RESTful API built using the Django framework
 ## :books: General info
 
 * Django framework: tba
+* [Python Models](https://docs.djangoproject.com/en/dev/topics/db/models/) used as the source of information about data
+* [Django ModelSerialisers](https://www.django-rest-framework.org/tutorial/1-serialization/) REST framework includes both Serializer classes, and ModelSerializer classes.
 
 ## :camera: Screenshots
 
@@ -32,8 +34,8 @@ A RESTful API built using the Django framework
 
 ## :floppy_disk: Setup
 
-* Install Python
-* Install pip
+* [Install Python](https://docs.python-guide.org/starting/installation/)
+* [Install pip](https://docs.python-guide.org/dev/virtualenvs/#installing-pipenv)
 * [Install Django](https://docs.djangoproject.com/en/3.1/howto/windows/)
 * `python manage.py runserver` to run server on port 8000
 
@@ -57,7 +59,9 @@ A RESTful API built using the Django framework
 ## :clap: Inspiration
 
 * [Parwiz Forogh: Django REST Framework Full Course For Beginners | Build REST API With Django](https://www.youtube.com/watch?v=B38aDwUpcFc)
+* [Parwiz Blog: Django REST Framework Course for Beginners](https://codeloop.org/django-rest-framework-course-for-beginners/) but beware of popups
 * [Data to Fish: How to Upgrade PIP in Windows](https://datatofish.com/upgrade-pip/)
+* [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)
 
 ## :envelope: Contact
 
