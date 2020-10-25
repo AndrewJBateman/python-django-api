@@ -24,7 +24,7 @@
 
 ## :camera: Screenshots
 
-![screen print](./img/api.png)
+![screen print](./img/delete.png)
 
 ## :signal_strength: Technologies
 
@@ -37,6 +37,7 @@
 * [Install Python](https://docs.python-guide.org/starting/installation/)
 * [Install pip](https://docs.python-guide.org/dev/virtualenvs/#installing-pipenv)
 * [Install Django](https://docs.djangoproject.com/en/3.1/howto/windows/)
+* Add code
 * `python manage.py runserver` to run server on port 8000
 
 ## :computer: Code Examples
@@ -54,7 +55,7 @@
 ## :clipboard: Status & To-do list
 
 * Status: in work
-* To-do: Complete
+* To-do: Complete code
 
 ## :clap: Inspiration
 
