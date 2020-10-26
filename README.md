@@ -18,15 +18,17 @@
 
 ## :books: General info
 
-* Django framework: tba
+* Django framework: dynamic CRUD interface used, configured with admin models
 * [Python Models](https://docs.djangoproject.com/en/dev/topics/db/models/) used as the source of information about data
 * [Django ModelSerialisers](https://www.django-rest-framework.org/tutorial/1-serialization/) REST framework includes both Serializer classes, and ModelSerializer classes.
 * [Django Generic View](https://www.tutorialspoint.com/django/django_generic_views.htm) classes used to save code.
 * [Django REST framework Mixin](https://www.django-rest-framework.org/api-guide/generic-views/#mixins) classes used to provide basic view behaviour.
 * [Django REST framework Authentication](https://www.django-rest-framework.org/api-guide/authentication/) token-based HTTP Authentication scheme used
+* [Django REST framework Viewsets](https://www.django-rest-framework.org/tutorial/6-viewsets-and-routers/) used to allow the URL construction to be handled automatically
 
 ## :camera: Screenshots
 
+![screen print](./img/list.png)
 ![screen print](./img/delete.png)
 
 ## :signal_strength: Technologies
@@ -46,10 +48,15 @@
 
 ## :computer: Code Examples
 
-* code to tba
+* The ArticleViewSet class with the queryset and serializer_class attributes provided. The actions provided by the ModelViewSet class are .list(), .retrieve(), .create(), .update(), .partial_update(), and .destroy().
 
 ```python
-
+class ArticleViewSet(viewsets.ModelViewSet):
+    """
+    A simple ViewSet for viewing all articles.
+    """
+    queryset = Article.objects.all()
+    serializer_class = ArticleSerializer
 ```
 
 ## :cool: Features
@@ -58,8 +65,8 @@
 
 ## :clipboard: Status & To-do list
 
-* Status: in work
-* To-do: Complete code
+* Status: Mostly complete
+* To-do: Add commenting and test some more
 
 ## :clap: Inspiration
 
