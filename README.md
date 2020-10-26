@@ -1,6 +1,6 @@
 # :zap: Python-Flask PostgreSQL Heroku
 
-* A RESTful API built using the Django framework
+* A RESTful API built using Python and the Django framework
 
 ## :page_facing_up: Table of contents
 
@@ -21,6 +21,9 @@
 * Django framework: tba
 * [Python Models](https://docs.djangoproject.com/en/dev/topics/db/models/) used as the source of information about data
 * [Django ModelSerialisers](https://www.django-rest-framework.org/tutorial/1-serialization/) REST framework includes both Serializer classes, and ModelSerializer classes.
+* [Django Generic View](https://www.tutorialspoint.com/django/django_generic_views.htm) classes used to save code.
+* [Django REST framework Mixin](https://www.django-rest-framework.org/api-guide/generic-views/#mixins) classes used to provide basic view behaviour.
+* [Django REST framework Authentication](https://www.django-rest-framework.org/api-guide/authentication/) token-based HTTP Authentication scheme used
 
 ## :camera: Screenshots
 
@@ -31,6 +34,7 @@
 * [Python v3](https://www.python.org/) programming language
 * [Django v3](https://www.djangoproject.com/) web framework
 * [Django Rest Framework v3](https://www.django-rest-framework.org/) powerful and flexible toolkit for building Web APIs
+* [Postman test API](https://www.postman.com/use-cases/api-testing-automation/) to send HTTP POST, PUT, GET and DELETE requests
 
 ## :floppy_disk: Setup
 
@@ -38,7 +42,7 @@
 * [Install pip](https://docs.python-guide.org/dev/virtualenvs/#installing-pipenv)
 * [Install Django](https://docs.djangoproject.com/en/3.1/howto/windows/)
 * Add code
-* `python manage.py runserver` to run server on port 8000
+* Enter `python manage.py runserver` to run server on port 8000
 
 ## :computer: Code Examples
 
