@@ -1,20 +1,20 @@
-# :zap: Python-Flask PostgreSQL Heroku
+# :zap: Python Django API
 
 * A RESTful API built using Python and the Django framework
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Python-Flask PostgreSQL Heroku](#zap-python-flask-postgresql-heroku)
-	* [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
-	* [:books: General info](#books-general-info)
-	* [:camera: Screenshots](#camera-screenshots)
-	* [:signal_strength: Technologies](#signal_strength-technologies)
-	* [:floppy_disk: Setup](#floppy_disk-setup)
-	* [:computer: Code Examples](#computer-code-examples)
-	* [:cool: Features](#cool-features)
-	* [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
-	* [:clap: Inspiration](#clap-inspiration)
-	* [:envelope: Contact](#envelope-contact)
+* [:zap: Python Django API](#zap-python-django-api)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
