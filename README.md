@@ -1,6 +1,12 @@
 # :zap: Python Django API
 
 * A RESTful API built using Python and the Django framework
+* **Note:** to open web links in a new window use: _ctrl+click on link_
+
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/python-django-api?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/python-django-api?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/python-django-api?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/python-django-api?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -75,6 +81,10 @@ class ArticleViewSet(viewsets.ModelViewSet):
 * [Data to Fish: How to Upgrade PIP in Windows](https://datatofish.com/upgrade-pip/)
 * [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
